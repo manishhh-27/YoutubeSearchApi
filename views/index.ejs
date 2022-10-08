@@ -33,16 +33,16 @@
             <%videos.forEach(video => {%>
              
             <tr>
-            <td>
-            <iframe width="100" height="100" src="https://www.youtube.com/embed/<%=video.id.videoId%>"></iframe>
-            </td>
-            <td>
-            <%=video.snippet.title%>
-            </td>
+                  <td>
+                    <iframe width="100" height="100" src="https://www.youtube.com/embed/<%=video.id.videoId%>"></iframe>
+                 </td>
+                  <td>
+                <%=video.snippet.title%>
+                 </td>
           
-            <td>
-            <%=video.snippet.publishTime%>
-            </td>
+               <td>
+                 <%=video.snippet.publishTime%>
+               </td>
             </tr>
                 
             <%})%>
