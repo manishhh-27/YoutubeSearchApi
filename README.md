@@ -1,7 +1,7 @@
 # YoutubeSearchApi
  API to fetch latest videos from YouTube
 
-Install all the dependencies (command: npm i express ejs)
+Install all the dependencies (command: npm i express ejs axios)
  
 Run package with the command nodemon app.js or node app.js
 
